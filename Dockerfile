@@ -2,12 +2,12 @@ FROM cfrost/java:8u171-jre-oracle
 
 RUN yum update -y && mkdir /app
 
-COPY target/euler-cloud-registry*.jar /app/app.jar
+COPY target/euler-cloud-*.jar /app/app.jar
 COPY run.sh /app/run.sh
 
 RUN chmod -R 755 /app
 
-EXPOSE 10001
+EXPOSE 8761
 
 WORKDIR /app
 
