@@ -1,4 +1,4 @@
-package net.eulerframework.cloud.registry;
+package org.eulerframework.cloud.registry;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
